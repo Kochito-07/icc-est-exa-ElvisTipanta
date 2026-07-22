@@ -1,0 +1,117 @@
+package data;
+
+import java.util.ArrayList;
+import java.util.List;
+import models.ProjectMetrics;
+import models.SoftwareProject;
+
+public final class ProjectData {
+    private ProjectData() {}
+
+    public static List<SoftwareProject> createProjects() {
+        List<SoftwareProject> projects = new ArrayList<>();
+
+        projects.add(new SoftwareProject("PRJ-001", "Portal Académico", new ProjectMetrics(165.0, 3, 36, 24), 4));
+        projects.add(new SoftwareProject("PRJ-002", "Sistema de Inventario", new ProjectMetrics(120.0, 4, 42, 2), 2));
+        projects.add(new SoftwareProject("PRJ-003", "Aplicación Móvil", new ProjectMetrics(210.0, 5, 54, 6), 2));
+        projects.add(new SoftwareProject("PRJ-004", "Plataforma de Reservas", new ProjectMetrics(75.0, 5, 54, 4), 5));
+        projects.add(new SoftwareProject("PRJ-005", "Gestor de Eventos", new ProjectMetrics(150.0, 4, 24, 16), 1));
+        projects.add(new SoftwareProject("PRJ-006", "Sistema de Matrículas", new ProjectMetrics(150.0, 7, 16, 20), 3));
+        projects.add(new SoftwareProject("PrJ-007", "Panel Administrativo", new ProjectMetrics(60.0, 2, 16, 14), 4));
+        projects.add(new SoftwareProject("PRJ-008", "Servicio de Notificaciones", new ProjectMetrics(30.0, 6, 20, 20), 3));
+        projects.add(new SoftwareProject("PRJ-009", "MÓDULO DE REPORTES", new ProjectMetrics(150.0, 2, 24, 18), 1));
+        projects.add(new SoftwareProject("prj-010", "Control de Asistencia", new ProjectMetrics(150.0, 4, 30, 22), 3));
+        projects.add(new SoftwareProject("PRJ-011", "Sistema de Tutorías", new ProjectMetrics(120.0, 6, 42, 2), 2));
+        projects.add(new SoftwareProject("PRJ-012", "Portal de Investigación", new ProjectMetrics(180.0, 3, 12, 20), 1));
+        projects.add(new SoftwareProject("PRJ-013", "gestor documental", new ProjectMetrics(105.0, 8, 42, 22), 1));
+        projects.add(new SoftwareProject("PrJ-014", "Sistema de Laboratorios", new ProjectMetrics(210.0, 6, 16, 6), 3));
+        projects.add(new SoftwareProject("PRJ-015", "Plataforma de Encuestas", new ProjectMetrics(30.0, 3, 8, 8), 4));
+        projects.add(new SoftwareProject("PRJ-016", "Servicio de Autenticación", new ProjectMetrics(165.0, 2, 12, 10), 3));
+        projects.add(new SoftwareProject("PRJ-017", "Sistema de Becas", new ProjectMetrics(60.0, 7, 8, 6), 4));
+        projects.add(new SoftwareProject("PRJ-018", "GESTOR DE PRÁCTICAS", new ProjectMetrics(165.0, 8, 54, 14), 2));
+        projects.add(new SoftwareProject("PRJ-019", "Portal de Admisiones", new ProjectMetrics(30.0, 7, 24, 18), 5));
+        projects.add(new SoftwareProject("prj-020", "Sistema de Seguimiento", new ProjectMetrics(30.0, 5, 48, 14), 4));
+        projects.add(new SoftwareProject("PrJ-021", "Portal Académico", new ProjectMetrics(210.0, 6, 12, 2), 4));
+        projects.add(new SoftwareProject("PRJ-022", "Sistema de Inventario", new ProjectMetrics(30.0, 4, 20, 16), 3));
+        projects.add(new SoftwareProject("PRJ-023", "Aplicación Móvil", new ProjectMetrics(120.0, 8, 8, 22), 5));
+        projects.add(new SoftwareProject("PRJ-024", "Plataforma de Reservas", new ProjectMetrics(45.0, 3, 8, 14), 4));
+        projects.add(new SoftwareProject("PRJ-025", "Gestor de Eventos", new ProjectMetrics(210.0, 3, 24, 20), 4));
+        projects.add(new SoftwareProject("PRJ-026", "sistema de matrículas", new ProjectMetrics(135.0, 5, 16, 4), 1));
+        projects.add(new SoftwareProject("PRJ-027", "PANEL ADMINISTRATIVO", new ProjectMetrics(150.0, 3, 48, 16), 1));
+        projects.add(new SoftwareProject("PrJ-028", "Servicio de Notificaciones", new ProjectMetrics(60.0, 4, 42, 12), 4));
+        projects.add(new SoftwareProject("PRJ-029", "Módulo de Reportes", new ProjectMetrics(75.0, 4, 8, 18), 2));
+        projects.add(new SoftwareProject("prj-030", "Control de Asistencia", new ProjectMetrics(60.0, 5, 12, 12), 2));
+        projects.add(new SoftwareProject("PRJ-031", "Sistema de Tutorías", new ProjectMetrics(30.0, 4, 54, 14), 5));
+        projects.add(new SoftwareProject("PRJ-032", "Portal de Investigación", new ProjectMetrics(30.0, 4, 42, 10), 5));
+        projects.add(new SoftwareProject("PRJ-033", "Gestor Documental", new ProjectMetrics(210.0, 7, 42, 20), 5));
+        projects.add(new SoftwareProject("PRJ-034", "Sistema de Laboratorios", new ProjectMetrics(60.0, 3, 8, 16), 2));
+        projects.add(new SoftwareProject("PrJ-035", "Plataforma de Encuestas", new ProjectMetrics(90.0, 4, 54, 24), 3));
+        projects.add(new SoftwareProject("PRJ-036", "SERVICIO DE AUTENTICACIÓN", new ProjectMetrics(180.0, 2, 16, 16), 4));
+        projects.add(new SoftwareProject("PRJ-037", "Sistema de Becas", new ProjectMetrics(150.0, 3, 36, 14), 1));
+        projects.add(new SoftwareProject("PRJ-038", "Gestor de Prácticas", new ProjectMetrics(150.0, 6, 24, 4), 4));
+        projects.add(new SoftwareProject("PRJ-039", "portal de admisiones", new ProjectMetrics(180.0, 7, 42, 14), 2));
+        projects.add(new SoftwareProject("prj-040", "Sistema de Seguimiento", new ProjectMetrics(210.0, 6, 42, 12), 2));
+        projects.add(new SoftwareProject("PRJ-041", "Portal Académico", new ProjectMetrics(105.0, 6, 16, 18), 5));
+        projects.add(new SoftwareProject("PrJ-042", "Sistema de Inventario", new ProjectMetrics(75.0, 8, 20, 10), 2));
+        projects.add(new SoftwareProject("PRJ-043", "Aplicación Móvil", new ProjectMetrics(45.0, 2, 48, 16), 2));
+        projects.add(new SoftwareProject("PRJ-044", "Plataforma de Reservas", new ProjectMetrics(135.0, 3, 36, 4), 5));
+        projects.add(new SoftwareProject("PRJ-045", "GESTOR DE EVENTOS", new ProjectMetrics(30.0, 6, 16, 14), 5));
+        projects.add(new SoftwareProject("PRJ-046", "Sistema de Matrículas", new ProjectMetrics(210.0, 4, 30, 8), 5));
+        projects.add(new SoftwareProject("PRJ-047", "Panel Administrativo", new ProjectMetrics(45.0, 5, 20, 14), 5));
+        projects.add(new SoftwareProject("PRJ-048", "Servicio de Notificaciones", new ProjectMetrics(75.0, 7, 24, 2), 3));
+        projects.add(new SoftwareProject("PrJ-049", "Módulo de Reportes", new ProjectMetrics(135.0, 7, 42, 10), 4));
+        projects.add(new SoftwareProject("prj-050", "Control de Asistencia", new ProjectMetrics(165.0, 6, 24, 16), 3));
+        projects.add(new SoftwareProject("PRJ-051", "Sistema de Tutorías", new ProjectMetrics(180.0, 8, 24, 4), 3));
+        projects.add(new SoftwareProject("PRJ-052", "portal de investigación", new ProjectMetrics(45.0, 8, 24, 18), 2));
+        projects.add(new SoftwareProject("PRJ-053", "Gestor Documental", new ProjectMetrics(30.0, 7, 16, 2), 3));
+        projects.add(new SoftwareProject("PRJ-054", "SISTEMA DE LABORATORIOS", new ProjectMetrics(210.0, 3, 8, 16), 5));
+        projects.add(new SoftwareProject("PRJ-055", "Plataforma de Encuestas", new ProjectMetrics(105.0, 3, 12, 14), 4));
+        projects.add(new SoftwareProject("PrJ-056", "Servicio de Autenticación", new ProjectMetrics(105.0, 7, 54, 10), 5));
+        projects.add(new SoftwareProject("PRJ-057", "Sistema de Becas", new ProjectMetrics(150.0, 8, 54, 16), 4));
+        projects.add(new SoftwareProject("PRJ-058", "Gestor de Prácticas", new ProjectMetrics(120.0, 3, 48, 16), 5));
+        projects.add(new SoftwareProject("PRJ-059", "Portal de Admisiones", new ProjectMetrics(210.0, 5, 42, 18), 1));
+        projects.add(new SoftwareProject("prj-060", "Sistema de Seguimiento", new ProjectMetrics(210.0, 4, 8, 18), 4));
+        projects.add(new SoftwareProject("PRJ-061", "Portal Académico", new ProjectMetrics(105.0, 8, 48, 12), 2));
+        projects.add(new SoftwareProject("PRJ-062", "Sistema de Inventario", new ProjectMetrics(75.0, 6, 20, 6), 2));
+        projects.add(new SoftwareProject("PrJ-063", "APLICACIÓN MÓVIL", new ProjectMetrics(135.0, 3, 54, 12), 2));
+        projects.add(new SoftwareProject("PRJ-064", "Plataforma de Reservas", new ProjectMetrics(120.0, 8, 42, 24), 1));
+        projects.add(new SoftwareProject("PRJ-065", "gestor de eventos", new ProjectMetrics(60.0, 8, 36, 16), 2));
+        projects.add(new SoftwareProject("PRJ-066", "Sistema de Matrículas", new ProjectMetrics(30.0, 3, 24, 4), 2));
+        projects.add(new SoftwareProject("PRJ-067", "Panel Administrativo", new ProjectMetrics(120.0, 4, 54, 10), 4));
+        projects.add(new SoftwareProject("PRJ-068", "Servicio de Notificaciones", new ProjectMetrics(45.0, 3, 42, 14), 3));
+        projects.add(new SoftwareProject("PRJ-069", "Módulo de Reportes", new ProjectMetrics(60.0, 2, 36, 10), 1));
+        projects.add(new SoftwareProject("prj-070", "Control de Asistencia", new ProjectMetrics(135.0, 6, 30, 14), 4));
+        projects.add(new SoftwareProject("PRJ-071", "Sistema de Tutorías", new ProjectMetrics(135.0, 2, 54, 6), 3));
+        projects.add(new SoftwareProject("PRJ-072", "PORTAL DE INVESTIGACIÓN", new ProjectMetrics(75.0, 3, 16, 18), 4));
+        projects.add(new SoftwareProject("PRJ-073", "Gestor Documental", new ProjectMetrics(150.0, 6, 20, 2), 4));
+        projects.add(new SoftwareProject("PRJ-074", "Sistema de Laboratorios", new ProjectMetrics(90.0, 8, 30, 6), 4));
+        projects.add(new SoftwareProject("PRJ-075", "Plataforma de Encuestas", new ProjectMetrics(120.0, 7, 30, 16), 5));
+        projects.add(new SoftwareProject("PRJ-076", "Servicio de Autenticación", new ProjectMetrics(180.0, 3, 8, 8), 5));
+        projects.add(new SoftwareProject("PrJ-077", "Sistema de Becas", new ProjectMetrics(90.0, 3, 16, 18), 2));
+        projects.add(new SoftwareProject("PRJ-078", "gestor de prácticas", new ProjectMetrics(210.0, 5, 16, 8), 2));
+        projects.add(new SoftwareProject("PRJ-079", "Portal de Admisiones", new ProjectMetrics(105.0, 7, 54, 16), 5));
+        projects.add(new SoftwareProject("prj-080", "Sistema de Seguimiento", new ProjectMetrics(105.0, 5, 42, 22), 4));
+        projects.add(new SoftwareProject("PRJ-081", "PORTAL ACADÉMICO", new ProjectMetrics(120.0, 8, 8, 8), 4));
+        projects.add(new SoftwareProject("PRJ-082", "Sistema de Inventario", new ProjectMetrics(90.0, 5, 8, 4), 2));
+        projects.add(new SoftwareProject("PRJ-083", "Aplicación Móvil", new ProjectMetrics(135.0, 8, 20, 18), 5));
+        projects.add(new SoftwareProject("PrJ-084", "Plataforma de Reservas", new ProjectMetrics(180.0, 2, 12, 22), 5));
+        projects.add(new SoftwareProject("PRJ-085", "Gestor de Eventos", new ProjectMetrics(150.0, 3, 20, 22), 3));
+        projects.add(new SoftwareProject("PRJ-086", "Sistema de Matrículas", new ProjectMetrics(45.0, 3, 8, 14), 4));
+        projects.add(new SoftwareProject("PRJ-087", "Panel Administrativo", new ProjectMetrics(135.0, 2, 8, 18), 4));
+        projects.add(new SoftwareProject("PRJ-088", "Servicio de Notificaciones", new ProjectMetrics(45.0, 3, 16, 14), 5));
+        projects.add(new SoftwareProject("PRJ-089", "Módulo de Reportes", new ProjectMetrics(60.0, 2, 8, 12), 4));
+        projects.add(new SoftwareProject("prj-090", "CONTROL DE ASISTENCIA", new ProjectMetrics(210.0, 4, 24, 20), 5));
+        projects.add(new SoftwareProject("prj-004", "pLATAFORMA DE rESERVAS", new ProjectMetrics(75.0, 5, 54, 4), 5));
+        projects.add(new SoftwareProject("PRJ-009", "módulo de reportes", new ProjectMetrics(150.0, 2, 24, 18), 1));
+        projects.add(new SoftwareProject("prj-016", "sERVICIO DE aUTENTICACIÓN", new ProjectMetrics(165.0, 2, 12, 10), 3));
+        projects.add(new SoftwareProject("PRJ-023", "aPLICACIÓN mÓVIL", new ProjectMetrics(120.0, 8, 8, 22), 5));
+        projects.add(new SoftwareProject("prj-031", "sISTEMA DE tUTORÍAS", new ProjectMetrics(30.0, 4, 54, 14), 5));
+        projects.add(new SoftwareProject("PRJ-040", "sISTEMA DE sEGUIMIENTO", new ProjectMetrics(210.0, 6, 42, 12), 2));
+        projects.add(new SoftwareProject("prj-052", "PORTAL DE INVESTIGACIÓN", new ProjectMetrics(45.0, 8, 24, 18), 2));
+        projects.add(new SoftwareProject("PRJ-064", "pLATAFORMA DE rESERVAS", new ProjectMetrics(120.0, 8, 42, 24), 1));
+        projects.add(new SoftwareProject("prj-077", "sISTEMA DE bECAS", new ProjectMetrics(90.0, 3, 16, 18), 2));
+        projects.add(new SoftwareProject("PRJ-088", "sERVICIO DE nOTIFICACIONES", new ProjectMetrics(45.0, 3, 16, 14), 5));
+
+        return projects;
+    }
+}
